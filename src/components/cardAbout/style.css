@@ -1,0 +1,26 @@
+.card-about{
+    padding: 30px;
+    /* background-color: #FFA500; */
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 20px 10px;
+}
+.card-about:hover{
+    background-color: #FFA500;
+}
+.card-about img{
+    width: 50px;
+    height: 50px;
+    margin: 0;
+}
+.card-about h3{
+    font-family: "Raleway", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    margin: 20px auto;
+}
+
+.card-about p{
+    text-align: center;
+}

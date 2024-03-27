@@ -1,0 +1,17 @@
+.carousel-item-container {
+    /* Ajusta el tamaño del item según tus necesidades */
+    width: 200px;
+    height: auto;
+    /* Agrega otros estilos que desees para personalizar los items */
+    margin: auto;
+}
+.carousel-item-container>img{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    padding: 0;
+    object-fit: contain;
+    user-select: none;
+    cursor: pointer;
+    -webkit-user-drag: none;
+}

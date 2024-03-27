@@ -1,0 +1,10 @@
+header{
+    position:sticky;
+    min-height:70px;
+    top:0;
+    /* background-color: rgb(14, 14, 14); */
+    /* display: flex; */
+    /* justify-content: center; */
+    align-items: center;
+    z-index: 1;
+}

@@ -1,0 +1,225 @@
+.first-section{
+    width: 100vw;
+    height: calc(100vh - 70px);
+    background-image: url("/src/assets/background.jpg");
+    background-size: cover;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    box-sizing: border-box;
+    padding: 10px 10px;
+
+}
+.landingpage-title {
+    max-width: 80%;
+    font-size: clamp(10px,8vw,48px);
+    font-weight: 700;
+    color: #FFA500;
+    margin: 0 auto;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+}
+.first-section>img{
+    width: 60vw;
+    height: 60vw;
+    max-width: 400px;
+    max-height: 400px;
+    display: block;
+    margin: auto;
+}
+.about{
+    /* padding: 50px; */
+    width: 95%;
+    /* max-width: 1024px; */
+    margin: auto;
+    display: flex;
+    padding-top: 50px;
+    flex-direction: column;
+    /* white-space: nowrap; */
+    /* flex-wrap: wrap; */
+}
+.about h2{
+    font-family: "Raleway", sans-serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+.about p{
+    font-size: 1.6rem;
+    text-align: left;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.about>article{
+    /* background-color: #FFA500; */
+    padding: 0 15px;
+    /* vertical-align: top; */
+    
+}
+.about>article:first-child>div{
+    background-color: #FFA500;
+    padding: 20px;
+    border-radius: 20px;
+    height: 100%;
+}
+.about>article:first-child{
+    width: 100%;
+    display: inline-block;
+    height: auto;
+    /* margin: auto; */
+}
+.about>article:last-child{
+    width: 100%;
+    display: flex;
+    min-height: 40rem;
+    margin: auto;
+    flex-direction: column;
+}
+.visitanos{
+    width: 90%;
+    margin: auto;
+}
+.visitanos h2{
+    font-size: 3rem;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    padding-top: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+.visitanos p{
+    font-size: 1.6rem;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    padding:20px 0;
+}
+.visitanos img{
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+}
+.productos h2{
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    padding: 50px 0 20px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    width: 90%;
+    margin: auto;
+}
+.productos p{
+    font-size: 1.6rem;
+    text-align: left;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.productos div{
+    height: auto;
+}
+.productos h3{
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    padding: 20px 0 20px 0;
+    width: 90%;
+    margin: auto;
+}
+.productos{
+    justify-content: space-between;
+}
+.productos>article>*{
+    width: 80%;
+    margin: 10px auto;
+    vertical-align: top;
+}
+.marcas h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    padding: 50px 0 20px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    width: 90%;
+    margin: auto;
+}
+
+.info>h2{
+    text-align: center;
+}
+.info>h3{
+    width: 80%;
+    text-align: left;
+    margin: auto;
+    padding: 10px 0;
+    font-size: 1.4rem;
+}
+.info>p{
+    width: 80%;
+    text-align: left;
+    margin: auto;
+    padding-left: 10px;
+    font-size: 1.2rem;
+}
+.info>ul{
+    width: 80%;
+    text-align: left;
+    margin: auto;
+    padding-top: 10px;
+}
+.info>ul>li{
+    text-align: left;
+    margin: auto;
+    margin-left: 10px;
+}
+.info a{
+    font-size: 1.5rem;
+}
+@media screen and (min-width:920px) {
+    .about{
+        flex-direction: row;
+    }
+    .about>article:first-child{
+        width: 40%;
+        height: auto;
+        /* margin: auto; */
+    }
+    .about>article:last-child{
+        width: 60%;
+        height: auto;
+        /* margin: auto; */
+    }
+    .productos>article>*{
+        max-width: 400px;
+        display: inline-block;
+        margin: 10px;
+    }
+    .productos div{
+        height: 450px;
+    }
+}
+@media screen and (min-width:1024px) {
+    .about>article:last-child{
+        flex-direction: row;
+    }
+    .about>article:last-child>*{
+        width: calc(100% / 3);
+    }
+}
+@media screen and (max-height:512px) {
+    .first-section>img{
+        width: 45vh;
+        height: 45vh;
+        max-width: 200px;
+        max-height: 200px;
+        display: block;
+        margin: auto;
+    }
+    .first-section>h1{
+        font-size: 10vh;
+    }
+}
